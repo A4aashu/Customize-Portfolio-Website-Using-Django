@@ -12,19 +12,30 @@ Install Python and Django
 4.Now deploy your project on heroku 
 
 5.Open same folder and Enter these commands in cmd-:
+
 heroku login(LOGIN IN BROWSER SIGNUP IF YOU DONT HAVE ACCOUNT)
+
 heroku create (TO CREATE HEROKU APP)
+
 git init
+
 git remote -v
+
 git remote add heroku <url provided by heroku create command>
+
 creating heroku -postgresql:hobby-dev(CREATING DATABASE IN HEROKU)
+
 git add .(ADD)
+
 git commit -m "The first commit"(COMMIT)
+
 git push heroku master(PUSH TO HEROKU)
+
 heroku run python manage.py migrate(TO MIGRATE DATABASE)
+
 heroku run python manage.py createsuperuser(FOR CREATING ADMIN ACCOUNT)
 
 
-
 If you found some issue to setup then feel free to contact me on my mail:kdsastm@gmail.com OR you can contact me on my website.
+
 live at-:https://immense-sierra-83684.herokuapp.com/
