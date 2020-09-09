@@ -38,4 +38,4 @@ heroku run python manage.py createsuperuser(FOR CREATING ADMIN ACCOUNT)
 
 If you found some issue to setup then feel free to contact me on my mail:kdsastm@gmail.com OR you can contact me on my website.
 
-live at-:https://immense-sierra-83684.herokuapp.com/
+live at-:https://aashu-211.herokuapp.com/
